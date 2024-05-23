@@ -367,8 +367,8 @@ importers:
         version: 4.0.0
     devDependencies:
       '@rollup/plugin-commonjs':
-        specifier: ^25.0.7
-        version: 25.0.7(rollup@4.13.0)
+        specifier: ^25.0.8
+        version: 25.0.8(rollup@4.13.0)
       '@rollup/plugin-inject':
         specifier: ^5.0.5
         version: 5.0.5(rollup@4.13.0)
@@ -1506,8 +1506,8 @@ packages:
     engines: {node: '>=14.0.0'}
     dev: false
 
-  /@rollup/plugin-commonjs@25.0.7(rollup@4.13.0):
-    resolution: {integrity: sha512-nEvcR+LRjEjsaSsc4x3XZfCCvZIaSMenZu/OiwOKGN2UhQpAYI7ru7czFvyWbErlpoGjnSX3D5Ch5FcMA3kRWQ==}
+  /@rollup/plugin-commonjs@25.0.8(rollup@4.13.0):
+    resolution: {integrity: sha512-ZEZWTK5n6Qde0to4vS9Mr5x/0UZoqCxPVR9KRUjU4kA2sO7GEUn1fop0DAwpO6z0Nw/kJON9bDmSxdWxO/TT1A==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.68.0||^3.0.0||^4.0.0
@@ -1515,12 +1515,12 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.5(rollup@4.13.0)
+      '@rollup/pluginutils': 5.1.0(rollup@4.13.0)
       commondir: 1.0.1
       estree-walker: 2.0.2
       glob: 8.1.0
       is-reference: 1.2.1
-      magic-string: 0.30.5
+      magic-string: 0.30.7
       rollup: 4.13.0
     dev: true
 
